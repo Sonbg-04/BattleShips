@@ -8,8 +8,7 @@ public class Settings : MonoBehaviour
     [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private Button soundButton;
     [SerializeField] private Image soundButtonImage;
-    [SerializeField] private Sprite soundOnSprite;
-    [SerializeField] private Sprite soundOffSprite;
+    [SerializeField] private Sprite soundOnSprite, soundOffSprite;
 
     private AudioManager audioManager;
     private float lastSoundVolume;

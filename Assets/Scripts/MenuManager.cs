@@ -29,7 +29,7 @@ public class MenuManager : MonoBehaviour
     public void BtnStart()
     {
         audioManager.PlaySFX();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadSceneAsync(1);
         Debug.Log("Game Started");
     }
 
