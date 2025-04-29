@@ -1,0 +1,335 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.61f1 (6c53ebaf375d) revision 7099371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Hub\Editor and Learn\installs\2022.3.61f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+D:/GitHub Desktop/BattleShips
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+51453
+Successfully changed project path to: D:/GitHub Desktop/BattleShips
+D:/GitHub Desktop/BattleShips
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29872]  Target information:
+
+Player connection [29872]  * "[IP] 192.168.154.1 [Port] 0 [Flags] 2 [Guid] 1450845394 [EditorId] 1450845394 [Version] 1048832 [Id] WindowsEditor(7,Sonn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29872]  * "[IP] 192.168.239.1 [Port] 0 [Flags] 2 [Guid] 1450845394 [EditorId] 1450845394 [Version] 1048832 [Id] WindowsEditor(7,Sonn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29872]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1450845394 [EditorId] 1450845394 [Version] 1048832 [Id] WindowsEditor(7,Sonn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29872] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29872] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 4.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
+[Subsystems] Discovering subsystems at path D:/Unity Hub/Editor and Learn/installs/2022.3.61f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub Desktop/BattleShips/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5936 MB
+    Driver:   31.0.15.4618
+Initialize mono
+Mono path[0] = 'D:/Unity Hub/Editor and Learn/installs/2022.3.61f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/Editor and Learn/installs/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/Editor and Learn/installs/2022.3.61f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Hub/Editor and Learn/installs/2022.3.61f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity Hub/Editor and Learn/installs/2022.3.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Hub/Editor and Learn/installs/2022.3.61f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003154 seconds.
+- Loaded All Assemblies, in  0.255 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 204 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 696ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (72ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (265ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.695 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4031 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.7 KB). Loaded Objects now: 4497.
+Memory consumption went from 145.0 MB to 144.7 MB.
+Total: 4.337100 ms (FindLiveObjects: 0.233100 ms CreateObjectMapping: 0.130800 ms MarkObjects: 3.776500 ms  DeleteObjects: 0.195600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9581.786207 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Metallic/SFX_UI_Click_Organic_Metallic_Plastic_Generic_1.wav
+  artifactKey: Guid(951b96d96188f9640b12fa2d7fade185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Metallic/SFX_UI_Click_Organic_Metallic_Plastic_Generic_1.wav using Guid(951b96d96188f9640b12fa2d7fade185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3c34301e73f561b87cc546e0eb1ed72b') in 0.177419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 78.286548 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Designed_Plastic_Pop_Coin_Generic_1.wav
+  artifactKey: Guid(c0bab065919cfed46a8a238b32542c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Designed_Plastic_Pop_Coin_Generic_1.wav using Guid(c0bab065919cfed46a8a238b32542c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '422f4a688364bdde00c9f8ac568cc8d8') in 0.054064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001286 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Bouncy_Generic_1.wav
+  artifactKey: Guid(b6c37a87a1e05c0418ce0605b46401d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Bouncy_Generic_1.wav using Guid(b6c37a87a1e05c0418ce0605b46401d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5c1c6052218cff4418d362b05fe2f24b') in 0.047813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Select_2.wav
+  artifactKey: Guid(37fb2ade76250d64aaa7abebfded8b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Select_2.wav using Guid(37fb2ade76250d64aaa7abebfded8b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ad39ca28873fc19fa5f53cef30440b08') in 0.043702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Negative_2.wav
+  artifactKey: Guid(f5d099c7a40edb844a583ee1693ea567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Negative_2.wav using Guid(f5d099c7a40edb844a583ee1693ea567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '85669b9e427324a551bef68828709b00') in 0.062317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Select_2.wav
+  artifactKey: Guid(e12d4a9d886c63b439737c61ec9cad12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Select_2.wav using Guid(e12d4a9d886c63b439737c61ec9cad12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '71b3c8e7b3fc3294dc730204a5213cec') in 0.031463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Negative_Back_1.wav
+  artifactKey: Guid(1f7c72d7f348183439f9bd7abcc2c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Negative_Back_1.wav using Guid(1f7c72d7f348183439f9bd7abcc2c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '02cd60c46901a6fb83d49726e2a55e85') in 0.037943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Metallic_Negative_Back_1.wav
+  artifactKey: Guid(92b13f80e14c84f4a8b9d5de6ddf85cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Metallic_Negative_Back_1.wav using Guid(92b13f80e14c84f4a8b9d5de6ddf85cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2a2812a7a3a46fd997d14c26bd0775c6') in 0.024711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Negative_1.wav
+  artifactKey: Guid(d70e29b1615f46f4793a5e19b8fe624c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Negative_1.wav using Guid(d70e29b1615f46f4793a5e19b8fe624c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '300f5c16618a5eb2a1b6d1dba5c5fdaa') in 0.025352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Single_Generic_1.wav
+  artifactKey: Guid(d9c9101e75fd29e46b2eaaa92e7605ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Single_Generic_1.wav using Guid(d9c9101e75fd29e46b2eaaa92e7605ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0dfbc7f8a3865c6c9b2b0e312de51e48') in 0.020466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Metallic_Thin_Generic_1.wav
+  artifactKey: Guid(8f7dade61c5cee742bbe8b6378ca33a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Metallic_Thin_Generic_1.wav using Guid(8f7dade61c5cee742bbe8b6378ca33a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e55d5895f15543496e1e1cbb3513d578') in 0.018876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Pop_Generic_1.wav
+  artifactKey: Guid(70c498db10a5caf4c9174292a7543e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Pop_Generic_1.wav using Guid(70c498db10a5caf4c9174292a7543e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '55e15551ab6ae678ff64a5d360f9d924') in 0.019577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Generic_1.wav
+  artifactKey: Guid(975ecd8fa11a8504aa3bd2d0779d289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Thin_Generic_1.wav using Guid(975ecd8fa11a8504aa3bd2d0779d289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '28db5a86c96b93c86a1d70123ca45eb4') in 0.021626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.847487 seconds.
+  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Wooden_Thin_Open_1.wav
+  artifactKey: Guid(5e97ee9953d5c2f41869b0d55397587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Plastic/SFX_UI_Click_Organic_Plastic_Wooden_Thin_Open_1.wav using Guid(5e97ee9953d5c2f41869b0d55397587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a7f26636a3769723db2264ae18f2a63e') in 0.042021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
