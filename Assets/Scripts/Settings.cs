@@ -16,9 +16,16 @@ public class Settings : MonoBehaviour
 
     private void Start()
     {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-        if (audioManager == null)
-            Debug.LogError("AudioManager not found!");
+        GameObject audioObj = GameObject.FindGameObjectWithTag("Audio");
+
+        if (audioObj != null)
+        {
+            audioManager = audioObj.GetComponent<AudioManager>();
+        }
+        else
+        {
+            Debug.Log("AudioManager not found!");
+        }
 
         if (PlayerPrefs.HasKey("SoundGame"))
         {

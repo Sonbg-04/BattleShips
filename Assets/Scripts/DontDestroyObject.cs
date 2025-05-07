@@ -10,18 +10,17 @@ public class DontDestroyObject : MonoBehaviour
         if (objs == null)
         {
             Debug.Log("DontDestroyObject not found!");
+            return;
         }
         else
         {
             if (objs.Length > 1)
             {
                 Destroy(gameObject);
-                Debug.Log("Duplicate DontDestroyObject destroyed!");
             }
             else
             {
                 DontDestroyOnLoad(gameObject);
-                Debug.Log("DontDestroyObject set to not destroy on load!");
             }
         }    
     }

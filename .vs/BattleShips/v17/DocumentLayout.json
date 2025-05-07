@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub Desktop\\BattleShips\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|d:\\github desktop\\battleships\\assets\\scripts\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|d:\\github desktop\\battleships\\assets\\scripts\\aimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|D:\\GitHub Desktop\\BattleShips\\assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|D:\\GitHub Desktop\\BattleShips\\assets\\scripts\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,28 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\Settings.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Settings.cs",
-              "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\Settings.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Settings.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Title": "AIManager.cs",
+              "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\AIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AIManager.cs",
+              "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\AIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AIManager.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAIwHoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T17:46:38.583Z",
+              "WhenOpened": "2025-05-07T10:45:58.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GridManager.cs",
-              "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\GridManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GridManager.cs",
-              "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\GridManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GridManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Title": "GameLogic.cs",
+              "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\GameLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogic.cs",
+              "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\GameLogic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogic.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwFsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T15:48:41.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T08:37:57.592Z"
             }
           ]
         }
