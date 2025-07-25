@@ -141,14 +141,14 @@ public class PlayerManager : MonoBehaviour
                         }
                         else
                         {
-                            selectShip.StopFlashing();
-                            foreach (Cell occupiedCell in selectShip.GetOccupiedCells())
+                            foreach (Cell occupiedCell in occupiedCells)
                             {
                                 occupiedCell.SetHasShip(true);
                                 occupiedCell.SetOccupiedShip(selectShip);
                             }
                             Debug.Log("Đặt tàu thành công!");
                             Debug.Log($"Trạng thái tàu sau khi đặt: {(selectShip.GetIsSunk() ? "Đã chìm" : "Chưa chìm")}");
+                            selectShip.StopFlashing();
                             shipCount--;
                             isSelectShip = false;
                         }        

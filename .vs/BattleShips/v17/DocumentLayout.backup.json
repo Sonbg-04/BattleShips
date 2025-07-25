@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\GitHub Desktop\\BattleShips\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|d:\\github desktop\\battleships\\assets\\scripts\\aimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|d:\\github desktop\\battleships\\assets\\scripts\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|d:\\github desktop\\battleships\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|D:\\GitHub Desktop\\BattleShips\\assets\\scripts\\aimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|D:\\GitHub Desktop\\BattleShips\\assets\\scripts\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|d:\\github desktop\\battleships\\assets\\scripts\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|D:\\GitHub Desktop\\BattleShips\\assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC545EB7-3577-8724-42F5-D10A877C3B6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,25 +39,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\Settings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Settings.cs",
+              "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\Settings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Settings.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:04:40.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:09:03.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerManager.cs",
+              "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerManager.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwGsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:06:37.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AIManager.cs",
               "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\AIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AIManager.cs",
               "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\AIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AIManager.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAiwG0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T10:45:58.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameLogic.cs",
               "DocumentMoniker": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\GameLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogic.cs",
               "ToolTip": "D:\\GitHub Desktop\\BattleShips\\Assets\\Scripts\\GameLogic.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameLogic.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwFsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T08:37:57.592Z",
               "EditorCaption": ""

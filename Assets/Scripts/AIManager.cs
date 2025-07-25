@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -137,9 +137,12 @@ public class AIManager : MonoBehaviour
 
                 if (IsValidPosition(target) && !hitCells[target.x, target.y])
                 {
+                    Debug.Log($"AI chọn mục tiêu săn bắn: {target}");
                     return (target.x, target.y);
                 }
             }
+
+            Debug.Log("Hết mục tiêu săn, dừng săn.");
             StopHunting();
         }
 
@@ -197,6 +200,7 @@ public class AIManager : MonoBehaviour
                 .ToList();
 
             Vector2Int chosen = bestCandidates[Random.Range(0, bestCandidates.Count)];
+            Debug.Log($"AI chọn ngẫu nhiên từ 5 ô tốt nhất: {chosen}");
             return (chosen.x, chosen.y);
         }
 
@@ -213,6 +217,7 @@ public class AIManager : MonoBehaviour
     }
     private void StopHunting()
     {
+        Debug.Log("Dừng chế độ săn.");
         isHunting = false;
         currentHits.Clear();
         firstHit = null;
@@ -228,7 +233,6 @@ public class AIManager : MonoBehaviour
             return Mathf.Max(5, currentHits.Count + 1);
         }
 
-        _ = new bool[6];
         int maxPossible = 2;
 
         for (int size = 5; size >= 2; size--)
@@ -297,6 +301,7 @@ public class AIManager : MonoBehaviour
         }
         return false;
     }
+
     private bool CanFitShip(int row, int col, int shipSize)
     {
         bool result = false;
@@ -318,6 +323,7 @@ public class AIManager : MonoBehaviour
     {
         hitCells[row, col] = true;
         Vector2Int pos = new(row, col);
+        Debug.Log($"Kết quả bắn tại ({row},{col}): {(isHit ? "TRÚNG" : "TRƯỢT")}");
 
         if (isHit)
         {
@@ -353,6 +359,8 @@ public class AIManager : MonoBehaviour
                 {
                     huntDirection = GetOppositeDirection(huntDirection);
                     reversedDirectionTried = true;
+                    Debug.Log("Hướng bắn sai, thử hướng ngược lại.");
+
 
                     potentialTargets.Clear();
                     if (firstHit.HasValue)
@@ -366,6 +374,7 @@ public class AIManager : MonoBehaviour
                 }
                 else
                 {
+                    Debug.Log("Cả hai hướng đều sai. Thử lại từ đầu từ ô trúng đầu tiên.");
                     directionConfirmed = false;
                     huntDirection = -1;
                     reversedDirectionTried = false;
@@ -415,6 +424,7 @@ public class AIManager : MonoBehaviour
         if (!firstHit.HasValue) firstHit = pos;
         lastHit = pos;
         isHunting = true;
+        Debug.Log($"Ghi nhận trúng tàu tại {pos}");
 
         if (currentHits.Count == 1)
         {
@@ -436,6 +446,7 @@ public class AIManager : MonoBehaviour
 
                 directionConfirmed = true;
                 reversedDirectionTried = false;
+                Debug.Log($"Xác nhận hướng: {huntDirection}");
 
                 Vector2Int axis = DirectionToVector(huntDirection);
                 List<Vector2Int> filteredTargets = potentialTargets.FindAll(target =>
@@ -459,7 +470,9 @@ public class AIManager : MonoBehaviour
             if (!potentialTargets.Contains(pos))
             {
                 potentialTargets.Add(pos);
+                Debug.Log($"Thêm mục tiêu mới: {pos}");
             }
         }
     }
+   
 }

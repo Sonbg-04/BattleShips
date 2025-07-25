@@ -122,17 +122,20 @@ public class GameLogic : MonoBehaviour
     {
         if (enemyShipCount == 0)
         {
+            Debug.Log("Người chơi đã thắng!");
             EndGamePanel(true);
         }
 
         if (playerShipCount == 0)
         {
+            Debug.Log("AI đã thắng!");
             EndGamePanel(false);
         }
     }
 
     private void EndGamePanel(bool playerWon)
     {
+        Debug.Log("Kết thúc trò chơi - Người chơi thắng: " + playerWon);
         turn = 0;
         if (playerWon)
         {
@@ -155,15 +158,20 @@ public class GameLogic : MonoBehaviour
 
     private void CheckIfHit(Cell selectedTile, List<GameObject> effectsList, out bool isHit)
     {
+        Debug.Log("Kiểm tra ô bị bắn: " + selectedTile != null ? selectedTile.name : null);
         isHit = false;
 
         if (selectedTile == null || selectedTile.GetIsHit())
+        {
+            Debug.Log("Ô không hợp lệ hoặc đã bị bắn trước đó");
             return;
+        }
 
         selectedTile.SetIsHit(true);
 
         if (selectedTile.GetHasShip())
         {
+            Debug.Log("BẮN TRÚNG!");
             GameObject newHit = Instantiate(hitEffect, selectedTile.transform.position, Quaternion.identity);
             effectsList.Add(newHit);
             isHit = true;
@@ -173,6 +181,7 @@ public class GameLogic : MonoBehaviour
         }
         else
         {
+            Debug.Log("Bắn trượt.");
             GameObject newMissed = Instantiate(missEffect, selectedTile.transform.position, Quaternion.identity);
             effectsList.Add(newMissed);
         }
@@ -180,6 +189,7 @@ public class GameLogic : MonoBehaviour
 
     private IEnumerator AIShootRoutine()
     {
+        Debug.Log("Bắt đầu lượt bắn của AI");
         bool keepShooting = true;
 
         while (keepShooting)
@@ -187,13 +197,22 @@ public class GameLogic : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
 
             var (row, col) = aiManager.AiChooseCell();
+            Debug.Log($"AI chọn ô tại hàng {row}, cột {col}");
             Cell targetCell = GetCellAtPos(row, col, 10);
 
             CheckIfHit(targetCell, enemyUI, out bool isHit);
             aiManager.ProcessAIShotResult(row, col, isHit);
 
-            if (!isHit) keepShooting = false;
-            else yield return new WaitForSeconds(0.3f);
+            if (!isHit)
+            {
+                Debug.Log("AI bắn trượt, kết thúc lượt");
+                keepShooting = false;
+            }
+            else
+            {
+                Debug.Log("AI bắn trúng, tiếp tục bắn");
+                yield return new WaitForSeconds(0.3f);
+            }
         }
 
         isAIShooting = false;
@@ -202,6 +221,7 @@ public class GameLogic : MonoBehaviour
 
     private IEnumerator PlayerShootRoutine()
     {
+        Debug.Log("Bắt đầu lượt bắn của người chơi");
         isCellSelected = true;
         bool keepShooting = true;
         bool hitLastShot = false;
@@ -216,11 +236,20 @@ public class GameLogic : MonoBehaviour
                 Cell c = hit.collider.GetComponent<Cell>();
                 if (!c.GetIsHit())
                 {
+                    Debug.Log("Người chơi chọn ô: " + c.name);
                     selectedCell = c;
                     CheckIfHit(selectedCell, playerUI, out bool isHit);
 
                     hitLastShot = isHit;
-                    if (!isHit) keepShooting = false;
+                    if (!isHit)
+                    {
+                        Debug.Log("Người chơi bắn trượt, kết thúc lượt");
+                        keepShooting = false;
+                    }
+                    else
+                    {
+                        Debug.Log("Người chơi bắn trúng, tiếp tục");
+                    }    
                 }
             }
         }
@@ -249,6 +278,7 @@ public class GameLogic : MonoBehaviour
 
     private void ShipFinding()
     {
+        Debug.Log("Tìm kiếm tàu chiến của người chơi...");
         shipDictionary.Add("ShipCell_2", new List<GameObject>());
         shipDictionary.Add("ShipCell_3", new List<GameObject>());
         shipDictionary.Add("ShipCell_4", new List<GameObject>());
@@ -269,6 +299,7 @@ public class GameLogic : MonoBehaviour
         {
             playerShips.AddRange(shipList);
         }
+        Debug.Log("Tổng số tàu tìm được: " + playerShips.Count);
     }
 
     private IEnumerator Wait(int number)

@@ -153,6 +153,8 @@ public class ShipManager : MonoBehaviour
     }
     public List<Cell> GetOccupiedCells()
     {
+        occupiedCells.Clear();
+
         Collider2D[] shipParts = GetComponentsInChildren<Collider2D>();
 
         foreach (var part in shipParts)
